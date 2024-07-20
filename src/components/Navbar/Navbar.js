@@ -61,8 +61,6 @@ const Navbar = () => {
               ></button>
             </div>
             <div className="offcanvas-body">
-
-
               {/* <ul className="navbar-nav mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a
@@ -113,52 +111,54 @@ const Navbar = () => {
                 </li>
               </ul> */}
               <ul className="navbar-nav mb-2 mb-lg-0">
-        <li className="nav-item">
-          <Link
-            onClick={() => setMenu("home")}
-            className={menu === "home" ? "active" : "" && "nav-link"}
-            to="/"
-          >
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            onClick={() => setMenu("about")}
-            className={menu === "about" ? "active" : "" && "nav-link"}
-            to="/about"
-          >
-            About Us
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            onClick={() => setMenu("certificate")}
-            className={menu === "certificate" ? "active" : "" && "nav-link"}
-            to="/certificate"
-          >
-            Certificate
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            onClick={() => setMenu("videos")}
-            className={menu === "videos" ? "active" : "" && "nav-link"}
-            to="/videos"
-          >
-            Videos
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            onClick={() => setMenu("contact")}
-            className={menu === "contact" ? "active" : "" && "nav-link"}
-            to="/contact"
-          >
-            Contact
-          </Link>
-        </li>
-      </ul>
+                <li className="nav-item">
+                  <Link
+                    onClick={() => setMenu("home")}
+                    className={menu === "home" ? "active" : "" && "nav-link"}
+                    to="/"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    onClick={() => setMenu("about")}
+                    className={menu === "about" ? "active" : "" && "nav-link"}
+                    to="/about"
+                  >
+                    About Us
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    onClick={() => setMenu("certificate")}
+                    className={
+                      menu === "certificate" ? "active" : "" && "nav-link"
+                    }
+                    to="/certificate"
+                  >
+                    Certificate
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    onClick={() => setMenu("videos")}
+                    className={menu === "videos" ? "active" : "" && "nav-link"}
+                    to="/videos"
+                  >
+                    Videos
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    onClick={() => setMenu("contact")}
+                    className={menu === "contact" ? "active" : "" && "nav-link"}
+                    to="/contact"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
