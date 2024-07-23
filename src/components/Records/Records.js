@@ -29,13 +29,13 @@ const Records = () => {
                       {item.description}
                     </Card.Text>
                     <div className="card-flex card-common-bg">
-                      <Card.Link
+                      {/* <Card.Link
                         href={item.link}
                         target="_blank"
                         className="card-link card-common-bg"
                       >
                         View More
-                      </Card.Link>
+                      </Card.Link> */}
                     </div>
                   </Card.Body>
                 </Card>

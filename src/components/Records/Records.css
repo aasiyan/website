@@ -39,6 +39,8 @@
   .body-card {
     margin-bottom: 20px;
     height: 476px;
+    margin-right: 25px;
+    margin-left: 25px;
   }
   .text {
     line-height: 18px;

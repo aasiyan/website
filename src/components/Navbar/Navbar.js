@@ -115,7 +115,7 @@ const Navbar = () => {
                   <Link
                     onClick={() => setMenu("home")}
                     className={menu === "home" ? "active" : "" && "nav-link"}
-                    to="/"
+                    to="/website"
                   >
                     Home
                   </Link>
