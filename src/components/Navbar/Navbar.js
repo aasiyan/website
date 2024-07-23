@@ -135,7 +135,7 @@ const Navbar = () => {
                     className={
                       menu === "certificate" ? "active" : "" && "nav-link"
                     }
-                    to="/certificate"
+                    to="/authentication"
                   >
                     Certificate
                   </Link>
