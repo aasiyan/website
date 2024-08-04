@@ -90,8 +90,26 @@ button {
   margin-top: 150px;
   text-align: center;
 }
-.auth-container{
+.auth-container {
   margin: 50px;
+}
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  width: calc(100% - 30px);
+  padding-right: 30px;
+}
+
+.password-container i {
+  position: absolute;
+  top: 45%;
+  left: 340px;
+  cursor: pointer;
+}
+.eye-icon{
+  margin-left: 10px;
 }
 @media only screen and (max-width: 600px) {
   .auth-note {

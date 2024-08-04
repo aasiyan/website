@@ -5,6 +5,7 @@ import "./Authentication.css";
 function Authentication() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
   const defaultUsername = "admin@aasiyan";
@@ -31,7 +32,9 @@ function Authentication() {
   };
 
   // alert("only admin can access the certificate page!!");
-
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
   return (
     <>
       <div className="auth-container">
@@ -56,16 +59,21 @@ function Authentication() {
                 />
               </label>
             </div>
-            <div>
+            <div className="password-container">
               <label>
                 Password:
                 <input
-                  type="password"
+                  type={showPassword ? "text" : "password"}
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
                 />
+                <i
+                  className={`fa ${showPassword ? "fa-eye-slash" : "fa-eye"}`}
+                  onClick={togglePasswordVisibility}
+                />
               </label>
+              
             </div>
             <button type="submit">Login</button>
           </div>
