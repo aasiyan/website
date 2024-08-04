@@ -97,6 +97,7 @@ const CertificateGenerator = () => {
         </label>
         <label className="cer-label">
           Field:
+          <br />
           <input
             className="input"
             type="text"
@@ -107,6 +108,7 @@ const CertificateGenerator = () => {
         </label>
         <label className="cer-label">
           Certificate Code:
+          <br/>
           <input
             className="input"
             type="text"
@@ -117,6 +119,7 @@ const CertificateGenerator = () => {
         </label>
         <label className="cer-label">
           Date of Issue:
+          <br />
           <input
             className="input"
             type="date"
@@ -165,7 +168,10 @@ const CertificateGenerator = () => {
         Print
       </button>
       <div>
-        <button onClick={() => (window.location.href = "/website")}>
+        <button
+          className="cer-button"
+          onClick={() => (window.location.href = "/website")}
+        >
           Logout
         </button>
       </div>
