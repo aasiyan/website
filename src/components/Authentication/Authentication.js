@@ -34,41 +34,43 @@ function Authentication() {
 
   return (
     <>
-    <div className="App">
-        {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
-      </div>
-      <h1 className="auth-note">
-        Only admin can able to access the certificate
-      </h1>
-      <form onSubmit={handleLogin}>
-        <div className="auth-card">
-          <h2 className="auth-head">Login</h2>
-
-          <div>
-            <label>
-              Username:
-              <input
-                type="text"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                required
-              />
-            </label>
-          </div>
-          <div>
-            <label>
-              Password:
-              <input
-                type="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-              />
-            </label>
-          </div>
-          <button type="submit">Login</button>
+      <div className="auth-container">
+        <div className="App">
+          {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
         </div>
-      </form>
+        <h1 className="auth-note">
+          Only admin can able to access the certificate
+        </h1>
+        <form onSubmit={handleLogin}>
+          <div className="auth-card">
+            <h2 className="auth-head">Login</h2>
+
+            <div>
+              <label>
+                Username:
+                <input
+                  type="text"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
+                  required
+                />
+              </label>
+            </div>
+            <div>
+              <label>
+                Password:
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
+              </label>
+            </div>
+            <button type="submit">Login</button>
+          </div>
+        </form>
+      </div>
     </>
   );
 }
