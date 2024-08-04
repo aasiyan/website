@@ -165,7 +165,7 @@ const CertificateGenerator = () => {
         Print
       </button>
       <div>
-        <button onClick={() => (window.location.href = "/authentication")}>Logout</button>
+        <button onClick={() => (window.location.href = "/website")}>Logout</button>
       </div>
     </div>
   );
