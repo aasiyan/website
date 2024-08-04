@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import LoadingSpinner from "../Loading/Loading";
 import "./Authentication.css";
 function Authentication() {
   const [username, setUsername] = useState("");
@@ -8,6 +9,17 @@ function Authentication() {
 
   const defaultUsername = "admin@aasiyan";
   const defaultPassword = "adminaasiyan@123";
+
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // Simulate a data fetch
+    setTimeout(() => {
+      setLoading(false);
+      setData();
+    }, 1500); // simulate a 2-second loading time
+  }, []);
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -22,6 +34,9 @@ function Authentication() {
 
   return (
     <>
+    <div className="App">
+        {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
+      </div>
       <h1 className="auth-note">
         Only admin can able to access the certificate
       </h1>

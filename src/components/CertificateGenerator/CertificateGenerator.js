@@ -75,18 +75,18 @@ const CertificateGenerator = () => {
 
   return (
     <div className="cer-container">
-      <form className="form">
-        <label className="label">
+      <form className="form-1">
+        <label className="cer-label">
           Name:
           <input
-            className="input"
+            className="cer-input"
             type="text"
             name="name"
             value={details.name}
             onChange={handleChange}
           />
         </label>
-        <label className="label">
+        <label className="cer-label">
           Photo:
           <input
             className="input"
@@ -95,7 +95,7 @@ const CertificateGenerator = () => {
             onChange={handlePhotoUpload}
           />
         </label>
-        <label className="label">
+        <label className="cer-label">
           Field:
           <input
             className="input"
@@ -105,7 +105,7 @@ const CertificateGenerator = () => {
             onChange={handleChange}
           />
         </label>
-        <label className="label">
+        <label className="cer-label">
           Certificate Code:
           <input
             className="input"
@@ -115,7 +115,7 @@ const CertificateGenerator = () => {
             onChange={handleChange}
           />
         </label>
-        <label className="label">
+        <label className="cer-label">
           Date of Issue:
           <input
             className="input"
@@ -158,14 +158,16 @@ const CertificateGenerator = () => {
           </div>
         </div>
       </div>
-      <button className="button" onClick={handleDownloadPDF}>
+      <button className="cer-button" onClick={handleDownloadPDF}>
         Download PDF
       </button>
-      <button className="button" onClick={handlePrint}>
+      <button className="cer-button" onClick={handlePrint}>
         Print
       </button>
       <div>
-        <button onClick={() => (window.location.href = "/website")}>Logout</button>
+        <button onClick={() => (window.location.href = "/website")}>
+          Logout
+        </button>
       </div>
     </div>
   );
