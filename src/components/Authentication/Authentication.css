@@ -115,4 +115,7 @@ button {
   .auth-note {
     margin-top: 100px;
   }
+  .password-container i {
+    left: 210px;
+  }
 }

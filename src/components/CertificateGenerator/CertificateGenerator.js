@@ -79,7 +79,7 @@ const CertificateGenerator = () => {
         <label className="cer-label">
           Name:
           <input
-            className="cer-input"
+            className="cer-input form-control form-control-lg"
             type="text"
             name="name"
             value={details.name}
@@ -99,7 +99,7 @@ const CertificateGenerator = () => {
           Field:
           <br />
           <input
-            className="input"
+            className="input form-control form-control-lg"
             type="text"
             name="field"
             value={details.field}
@@ -108,9 +108,9 @@ const CertificateGenerator = () => {
         </label>
         <label className="cer-label">
           Certificate Code:
-          <br/>
+          <br />
           <input
-            className="input"
+            className="input form-control form-control-lg"
             type="text"
             name="certificateCode"
             value={details.certificateCode}

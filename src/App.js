@@ -1,18 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-// import About from "./components/About/About";
+import About from "./components/About/About";
 // import Certificate from "./components/Certificate/Certificate";
 // import Videos from "./components/Videos/Videos";
 // import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
-import CertificateGenerator from "./components/CertificateGenerator/CertificateGenerator"
+import CertificateGenerator from "./components/CertificateGenerator/CertificateGenerator";
 import Authentication from "./components/Authentication/Authentication";
 import UnderConstruction from "./components/under_construction/UnderConstruction";
 import LoadingSpinner from "./components/Loading/Loading";
-import Certificate from "./pages/Certificate"
+import Certificate from "./pages/Certificate";
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import Contact from "./pages/Contact";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -35,11 +36,14 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/website" element={<Home />} />
-            <Route path="/about" element={<UnderConstruction />} />
+            <Route path="/about" element={<About />} />
             <Route path="/videos" element={<UnderConstruction />} />
-            <Route path="/contact" element={<UnderConstruction />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/authentication" element={<Authentication />} />
-            <Route path="/certificateGenerator" element={<CertificateGenerator />} />
+            <Route
+              path="/certificateGenerator"
+              element={<CertificateGenerator />}
+            />
             <Route path="/certificate" element={<Certificate />} />
           </Routes>
           <Footer />
