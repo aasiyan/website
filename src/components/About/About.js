@@ -5,7 +5,9 @@ const About = () => {
   return (
     <>
       <div>
-        <h1 className="auth-note">About Us</h1>
+        <h1 className="auth-note about-us" style={{ marginTop: "80px" }}>
+          About Us
+        </h1>
         <div className="container">
           <div className="row about-div">
             <div className="col-lg-6">

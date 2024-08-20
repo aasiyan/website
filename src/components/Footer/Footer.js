@@ -29,7 +29,7 @@ const socials = [
 ];
 
 // const navLinks = Array.from(pages.values()).filter((page) => page.anchorable);
-
+const currentYear = new Date().getFullYear();
 const Footer = () => {
   return (
     <footer className="site-footer">
@@ -70,6 +70,10 @@ const Footer = () => {
           </div>
         </div>
       </container>
+      <p className="footer-rights">
+        &copy; <span>{currentYear}</span> Aasiyan book of records. All rights
+        reserved.Design and developed by Dinesh Ram
+      </p>
     </footer>
   );
 };

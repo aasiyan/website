@@ -51,7 +51,11 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
+.footer-rights {
+  text-align: center;
+  margin-bottom: -35px;
+  font-size: 13px;
+}
 @media (max-width: 576px) {
   .site-footer .container {
     grid-template-columns: 1fr;
@@ -59,10 +63,23 @@
   /* .site-footer {
     margin: 100px;
   } */
-   .footer-margin{
-    margin: 30px;
-   }
+  .footer-margin {
+    margin: 0px;
+  }
   .site-footer-social a {
     margin: 0.5rem;
+  }
+  .site-footer-nav {
+    margin-left: 32px;
+  }
+  .site-footer-contact {
+    margin-left: 32px;
+  }
+  .site-footer-social {
+    margin-left: 32px;
+  }
+  .footer-rights {
+    margin-top: 20px;
+    font-size: 12px;
   }
 }
