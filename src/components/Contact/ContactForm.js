@@ -13,11 +13,8 @@ const ContactForm = () => {
       setData();
     }, 1500); // simulate a 2-second loading time
   }, []);
-  const sendAlert = () => {
-    alert("Message sent successfully");
-  };
 
-  const [result, setResult] = React.useState("Send Message");
+  const [result, setResult] = React.useState("Message Sent Successfull");
 
   const sendMessage = async (event) => {
     event.preventDefault();
@@ -34,12 +31,15 @@ const ContactForm = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("Message Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
     }
+  };
+  const sendAlert = () => {
+    alert(result);
   };
   return (
     <>
@@ -83,7 +83,7 @@ const ContactForm = () => {
               </label>
             </div>
             <button type="submit" onClick={sendAlert}>
-              {result}
+              Send Message
             </button>
           </div>
         </form>
