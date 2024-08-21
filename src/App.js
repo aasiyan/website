@@ -6,9 +6,10 @@ import About from "./components/About/About";
 // import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
+import Videos from "./pages/VideoPage";
 import CertificateGenerator from "./components/CertificateGenerator/CertificateGenerator";
 import Authentication from "./components/Authentication/Authentication";
-import UnderConstruction from "./components/under_construction/UnderConstruction";
+// import UnderConstruction from "./components/under_construction/UnderConstruction";
 import LoadingSpinner from "./components/Loading/Loading";
 import Certificate from "./pages/Certificate";
 import React, { useState, useEffect } from "react";
@@ -37,7 +38,7 @@ function App() {
           <Routes>
             <Route path="/website" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/videos" element={<UnderConstruction />} />
+            <Route path="/videos" element={<Videos />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/authentication" element={<Authentication />} />
             <Route

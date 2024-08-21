@@ -39,7 +39,7 @@
 }
 .active {
   padding-bottom: 2px;
-  border-bottom: 5px solid #f4ce14;
+  border-bottom: 5px solid blue;
 }
 .navbar {
   transition: background-color 0.3s ease;

@@ -1,9 +1,24 @@
-import React from "react";
 import "./About.css";
 import Dummy from "../assets/dummy.jpg";
+import LoadingSpinner from "../Loading/Loading";
+import React, { useState, useEffect } from "react";
+
 const About = () => {
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    // Simulate a data fetch
+    setTimeout(() => {
+      setLoading(false);
+      setData();
+    }, 1500); // simulate a 2-second loading time
+  }, []);
   return (
     <>
+      <div className="App">
+        {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
+      </div>
       <div>
         <h1 className="auth-note about-us" style={{ marginTop: "80px" }}>
           About Us

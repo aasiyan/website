@@ -20,42 +20,81 @@ export const rec_list = [
     rec_name: "Record-1",
     rec_img: rec_1,
     description:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
     link: "dink",
   },
-  { 
+  {
     rec_name: "Record-2",
     rec_img: rec_2,
     description:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
     link: "dink",
   },
   {
     rec_name: "Record-3",
     rec_img: rec_3,
     description:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
     link: "dink",
   },
   {
     rec_name: "Record-4",
     rec_img: rec_4,
     description:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
     link: "dink",
   },
   {
     rec_name: "Record-5",
     rec_img: rec_5,
     description:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
     link: "dink",
   },
   {
     rec_name: "Record-6",
     rec_img: rec_6,
     description:
-      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat sequi ratione sint reprehenderit nostrumrecusandae deleniti vitae, alias modi dolorem obcaecati aut in amet. Consequatur. Lorem ipsum dolor sit, amet consectetur adipisicing elit",
     link: "dink",
+  },
+];
+
+export const videos = [
+  {
+    id: 1,
+    video_link: "https://www.youtube.com/embed/hkHHwA-vEyQ?si=tmZ1gN2x1uooFKnu",
+    video_des:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat",
+  },
+  {
+    id: 2,
+    video_link: "https://www.youtube.com/embed/hkHHwA-vEyQ?si=tmZ1gN2x1uooFKnu",
+    video_des:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat",
+  },
+  {
+    id: 3,
+    video_link: "https://www.youtube.com/embed/hkHHwA-vEyQ?si=tmZ1gN2x1uooFKnu",
+    video_des:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat",
+  },
+  {
+    id: 4,
+    video_link: "https://www.youtube.com/embed/hkHHwA-vEyQ?si=tmZ1gN2x1uooFKnu",
+    video_des:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat",
+  },
+  {
+    id: 5,
+    video_link: "https://www.youtube.com/embed/hkHHwA-vEyQ?si=tmZ1gN2x1uooFKnu",
+    video_des:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat",
+  },
+  {
+    id: 6,
+    video_link: "https://www.youtube.com/embed/hkHHwA-vEyQ?si=tmZ1gN2x1uooFKnu",
+    video_des:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. N Nisi dolorumnesciunt harum odio placeat",
   },
 ];
