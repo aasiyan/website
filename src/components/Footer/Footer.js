@@ -17,7 +17,7 @@ import "./Footer.css";
 
 const contacts = [
   { icon: faLocationDot, info: "Theni" },
-  { icon: faPhone, info: "+91 9123456780" },
+  { icon: faPhone, info: "+91 7010367432" },
   { icon: faEnvelope, info: "aasiyandev@gmail.com" },
 ];
 
