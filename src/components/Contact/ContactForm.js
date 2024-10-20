@@ -1,19 +1,8 @@
-import React, { useEffect, useState } from "react";
-import LoadingSpinner from "../Loading/Loading";
+import React from "react";
 import "./ContactForm.css";
+import { Card } from "react-bootstrap";
 
 const ContactForm = () => {
-  const [loading, setLoading] = useState(true);
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    // Simulate a data fetch
-    setTimeout(() => {
-      setLoading(false);
-      setData();
-    }, 1500); // simulate a 2-second loading time
-  }, []);
-
   const [result, setResult] = React.useState("Message Sent Successfull");
 
   const sendMessage = async (event) => {
@@ -43,50 +32,78 @@ const ContactForm = () => {
   };
   return (
     <>
-      <div className="auth-container">
-        <div className="App">
-          {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
-        </div>
-        <form onSubmit={sendMessage}>
-          <div className="auth-card con-card">
-            <h2 className="auth-head">Contact</h2>
-            <div>
-              <label>
-                Name
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Enter the name"
-                  required
-                />
-              </label>
+      <div className="auth-container" id="contact">
+        <h1
+          className="auth-note about-us"
+          style={{ marginTop: "-40px", marginBottom: "-10px" }}
+        >
+          Contact
+        </h1>
+        <div className="row">
+          <form
+            onSubmit={sendMessage}
+            className="col-lg-6 col-sm-12 contact-div"
+          >
+            <div className="auth-card con-card">
+              {/* <h2 className="auth-head">Contact</h2> */}
+              <div>
+                <label>
+                  Name
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Enter the name"
+                    required
+                  />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Email
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Enter Email id"
+                    required
+                  />
+                </label>
+              </div>
+              <div>
+                <label>
+                  Message <br />
+                  <textarea
+                    name="message"
+                    className="contact-message"
+                    placeholder="Enter Message"
+                  ></textarea>
+                </label>
+              </div>
+              <button type="submit" onClick={sendAlert}>
+                Send Message
+              </button>
             </div>
-            <div>
-              <label>
-                Email
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Enter Email id"
-                  required
-                />
-              </label>
-            </div>
-            <div>
-              <label>
-                Message <br />
-                <textarea
-                  name="message"
-                  className="contact-message"
-                  placeholder="Enter Message"
-                ></textarea>
-              </label>
-            </div>
-            <button type="submit" onClick={sendAlert}>
-              Send Message
-            </button>
+          </form>
+
+          <div className="col-lg-6 col-sm-12 ">
+            <h1
+              className="auth-note about-us"
+              style={{ marginTop: "20px", marginBottom: "-20px" }}
+            >
+              Map
+            </h1>
+            <Card className="map-card contact-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3928.21588468122!2d77.63297667503227!3d10.081389390028228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDA0JzUzLjAiTiA3N8KwMzgnMDguMCJF!5e0!3m2!1sen!2sin!4v1729403669274!5m2!1sen!2sin"
+                allowfullscreen=""
+                className="map-body"
+                loading="lazy"
+                alt="map"
+                title="map"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </Card>
           </div>
-        </form>
+        </div>
       </div>
     </>
   );

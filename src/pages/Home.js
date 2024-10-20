@@ -1,10 +1,16 @@
+import About from "../components/About/About";
+import ContactForm from "../components/Contact/ContactForm";
 import Hero from "../components/Hero/Hero";
-import Records from "../components/Records/Records";
+import News from "../components/News/News";
+// import Records from "../components/Records/Records";
 function Home() {
   return (
     <div>
       <Hero />
-      <Records />
+      <About />
+      {/* <Records /> */}
+      <News />
+      <ContactForm />
     </div>
   );
 }

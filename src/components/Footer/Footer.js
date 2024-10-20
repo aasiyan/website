@@ -1,9 +1,9 @@
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+// import {
+//   faFacebook,
+//   faTwitter,
+//   faInstagram,
+//   faYoutube,
+// } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faLocationDot,
@@ -21,12 +21,12 @@ const contacts = [
   { icon: faEnvelope, info: "aasiyandev@gmail.com" },
 ];
 
-const socials = [
-  { icon: faFacebook, name: "facebook" },
-  { icon: faTwitter, name: "twitter" },
-  { icon: faInstagram, name: "instagram" },
-  { icon: faYoutube, name: "youtube" },
-];
+// const socials = [
+//   { icon: faFacebook, name: "facebook" },
+//   { icon: faTwitter, name: "twitter" },
+//   { icon: faInstagram, name: "instagram" },
+//   { icon: faYoutube, name: "youtube" },
+// ];
 
 // const navLinks = Array.from(pages.values()).filter((page) => page.anchorable);
 const currentYear = new Date().getFullYear();
@@ -39,9 +39,8 @@ const Footer = () => {
             <h4>Sitemap</h4>
             <ul>
               <li>Home</li>
-              <li>About us</li>
-              <li>Certificate</li>
-              <li>Videos</li>
+              <li>About</li>
+              <li>News</li>
               <li>Contact</li>
             </ul>
           </nav>
@@ -55,7 +54,7 @@ const Footer = () => {
               ))}
             </address>
           </div>
-          <div className="site-footer-social">
+          {/* <div className="site-footer-social">
             <h4>Connect with us</h4>
             {socials.map((social, index) => (
               <a
@@ -67,6 +66,10 @@ const Footer = () => {
                 <FontAwesomeIcon icon={social.icon} size="lg" />
               </a>
             ))}
+          </div> */}
+          <div className="site-footer-social">
+            <h4>Connect with us</h4>
+            <p>www.aasiyan.com</p>
           </div>
         </div>
       </container>

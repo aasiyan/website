@@ -1,10 +1,10 @@
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import { useState, useEffect } from "react";
 import logo from "../assets/logo.png";
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
+  // const [menu, setMenu] = useState("home");
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
@@ -61,57 +61,8 @@ const Navbar = () => {
               ></button>
             </div>
             <div className="offcanvas-body">
-              {/* <ul className="navbar-nav mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a
-                    onClick={() => setMenu("home")}
-                    className={"nav-link" && menu === "home" ? "active" : ""}
-                    href="#home"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    onClick={() => setMenu("about")}
-                    className={"nav-link" && menu === "about" ? "active" : ""}
-                    href="#about"
-                  >
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    onClick={() => setMenu("certificate")}
-                    className={
-                      "nav-link" && menu === "certificate" ? "active" : ""
-                    }
-                    href="#tech-stack"
-                  >
-                    Certificate
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    onClick={() => setMenu("videos")}
-                    className={"nav-link" && menu === "videos" ? "active" : ""}
-                    href="#project"
-                  >
-                    Videos
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a
-                    onClick={() => setMenu("contact")}
-                    className={"nav-link" && menu === "contact" ? "active" : ""}
-                    href="#contact"
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul> */}
               <ul className="navbar-nav mb-2 mb-lg-0">
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     onClick={() => setMenu("home")}
                     className={menu === "home" ? "active" : "" && "nav-link"}
@@ -157,6 +108,42 @@ const Navbar = () => {
                   >
                     Contact
                   </Link>
+                </li> */}
+                <li className="nav-item">
+                  <a
+                    className="nav-link nav-text"
+                    style={{ color: "black" }}
+                    href="#hero"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link nav-text"
+                    style={{ color: "black" }}
+                    href="#about"
+                  >
+                    About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link nav-text"
+                    style={{ color: "black" }}
+                    href="#news"
+                  >
+                    News
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link nav-text"
+                    style={{ color: "black" }}
+                    href="#contact"
+                  >
+                    Contact
+                  </a>
                 </li>
               </ul>
             </div>

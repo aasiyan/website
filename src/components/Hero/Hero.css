@@ -77,6 +77,7 @@
   height: 100%;
 }
 .hero-head {
+  text-align: center;
   font-family: "Markazi Text";
   font-weight: 400;
   line-height: 1;
@@ -89,7 +90,10 @@
 .hero-information h2 {
   color: black;
 }
-
+.hero-para {
+  text-align: justify;
+  font-size: 20px;
+}
 @media (max-width: 480px) {
   .hero-image {
     margin-top: 80px;
@@ -98,7 +102,9 @@
   .hero-information h1 {
     margin-top: 20px;
   }
-  .hero-para{
+  .hero-para {
     text-align: justify;
+    margin: 0px 20px 0px 20px;
+    font-size: 16px;
   }
 }
