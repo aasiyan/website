@@ -21,17 +21,32 @@ const About = () => {
           {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
         </div> */}
         <div>
-          <h1 className="auth-note about-us" style={{ marginTop: "20px" }}>
+          <h1
+            className="auth-note about-us"
+            style={{ marginTop: "20px", fontFamily: "Markazi Text" }}
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
             Meet Our Founder
           </h1>
           <div className="container">
             <div className="row about-div">
               <div className="col-lg-6">
-                <img src={Jd} alt="dum" className="about-img" />
+                <img
+                  src={Jd}
+                  alt="dum"
+                  className="about-img"
+                  data-aos="flip-left"
+                  data-aos-duration="1500"
+                />
                 <h3 className="about-head">Founder</h3>
                 <p className="about-name">Dr P.Vivek</p>
               </div>
-              <div className="col-lg-6">
+              <div
+                className="col-lg-6"
+                data-aos="flip-left"
+                data-aos-duration="1500"
+              >
                 <p className="hero-para">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Vivek P</b> is the visionary
                   founder of <b> Aasiyan book of records</b>, bringing over 15
@@ -42,8 +57,10 @@ const About = () => {
                   committed to empowering individuals through knowledge and
                   practical skills. His additional qualifications span diverse
                   fields such as skincare and haircare, soft skills, fine arts,
-                  and sustainable practices like millet powder making and
-                  reusable napkin crafting.
+                  and sustainable practices like millet powder making, reusable
+                  napkin crafting, Treaditional healer for siddah, Varma
+                  Theropy, Electro Homiopathy(BEMS), Astrology, Motivational
+                  speaker, Womens enterproner traniner, Orientation trainer.
                 </p>
                 <p className="hero-para">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; He is passionate about

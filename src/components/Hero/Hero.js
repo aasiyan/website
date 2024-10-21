@@ -10,10 +10,10 @@ const Hero = () => {
       <div>
         <img className="hero-image" src={Banner} alt="Restaurant food" />
         <div className="hero-information container">
-          <h1 className="hero-head">Asiyan</h1>
+          <h1 className="hero-head">Aasiyan</h1>
           <h2 className="hero-head">Book of records</h2>
-          <p className="hero-para">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The <b>Asiyan Book of Records</b> is
+          <p className="hero-para" data-aos="zoom-in" data-aos-duration="1500">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The <b>Aasiyan Book of Records</b> is
             a platform that recognizes and celebrates extraordinary
             achievements, talents, and milestones across a wide range of fields.
             Similar to other record-keeping organizations, it documents
@@ -22,7 +22,7 @@ const Hero = () => {
             sports, education, arts, science, and more.
           </p>
 
-          <p className="hero-para">
+          <p className="hero-para" data-aos="zoom-in" data-aos-duration="1500">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This website likely provides detailed
             guidelines on how participants can submit their record attempts, the
             process for validation, and the criteria required for recognition.

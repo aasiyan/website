@@ -15,8 +15,14 @@ import Certificate from "./pages/Certificate";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Contact from "./pages/Contact";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "aos/dist/aos.js";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(null);
 

@@ -110,17 +110,17 @@ export const news_list = [
   {
     id: 1,
     news_img: news1,
-    desc: "Coimbatore, Oct 11 As part of World Mental Health Day, KPR Institute of Engineering and Technology created two world records to promote the importance of Mental Health by conducting Bike Rally with the most number of participants and Laughter Yoga with the largest number of participants at KPRIET campus.",
+    desc: "To mark World Mental Health Day, KPR Institute of Engineering and Technology in Coimbatore achieved two world records to highlight the importance of mental health. The institute hosted a bike rally with the most participants and a laughter yoga session with the largest gathering, both taking place at the KPRIET campus.",
   },
   {
     id: 2,
     news_img: news2,
-    desc: "Western dance world record attempt by the Mafi Dance Crew. The poster includes the event details, such as the date, time, and contact information. It also features logos of the supporting organizations, Aasiyan Book of World Records, ACN TV, and Galatta Media. The poster has a vibrant blue background and eye-catching typography.",
+    desc: "The Mafi Dance Crew is attempting to set a world record for Western dance. The event poster highlights key details such as the date, time, and contact information. It also showcases logos of supporting organizations, including the Aasiyan Book of World Records, ACN TV, and Galatta Media. With a vibrant blue background and bold, eye-catching typography, the poster effectively captures attention.",
   },
   {
     id: 3,
     news_img: news3,
-    desc: "world record attempt in Bharatam, Silambam, and Bharatanatyam. It's organized by Aasiyan Book of World Records and will take place on October 17, 2021. The event will feature a 20-minute non-stop performance of these dance forms. The poster includes details about the venue and contact information.",
+    desc: "A world record attempt in Bharatam, Silambam, and Bharatanatyam is being organized by the Aasiyan Book of World Records on October 17, 2021. The event will feature a continuous 20-minute performance showcasing these traditional art forms. The poster provides details about the venue and contact information for the event",
   },
   {
     id: 4,
@@ -130,11 +130,11 @@ export const news_list = [
   {
     id: 5,
     news_img: news5,
-    desc: "Silambam world record attempt. It's organized by Aasiyan Book of World Records and will feature a 60-minute non-stop Silambam performance by 100 participants. The event is scheduled for July 31, 2022, and will take place at the Priyan Silmbam Academy in Okkadai. The poster includes details about the event and contact information.",
+    desc: "A world record attempt for Silambam, organized by the Aasiyan Book of World Records, will showcase a 60-minute non-stop performance by 100 participants. The event is set for July 31, 2022, at Priyan Silambam Academy in Okkadai. The poster provides event details and contact information for those interested in attending or participating.",
   },
   {
     id: 6,
     news_img: news6,
-    desc: "world record attempt in Thirukkural recitation. It reports that 283 students from Bodi Soundeeswari Middle School successfully recited 1330 verses of Thirukkural in 107 minutes, setting a new world record. The article mentions the names of the organizers and participants, highlighting the achievement of the students.",
+    desc: "A world record was set in Thirukkural recitation, where 283 students from Bodi Soundeeswari Middle School successfully recited all 1,330 verses of the Thirukkural in just 107 minutes. This remarkable achievement established a new world record. The article highlights the names of the organizers and participants, celebrating the students' impressive accomplishment.",
   },
 ];

@@ -6,14 +6,23 @@ const News = () => {
   return (
     <>
       <div className="container" id="news">
-        <h1 id="about" className="about-head rec-head">
+        <h1
+          id="about"
+          className="about-head rec-head"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
           News
         </h1>
         <div className="row">
           {news_list.map((item) => {
             return (
               <div className="col-lg-4 col-sm-12 body-margin">
-                <Card className="body-card">
+                <Card
+                  className="body-card"
+                  data-aos="zoom-in"
+                  data-aos-duration="1500"
+                >
                   <Card.Img
                     variant="top"
                     className="project-img"

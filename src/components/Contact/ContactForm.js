@@ -35,7 +35,13 @@ const ContactForm = () => {
       <div className="auth-container" id="contact">
         <h1
           className="auth-note about-us"
-          style={{ marginTop: "-40px", marginBottom: "-10px" }}
+          style={{
+            marginTop: "-40px",
+            marginBottom: "-10px",
+            fontFamily: "Markazi Text",
+          }}
+          data-aos="zoom-in"
+          data-aos-duration="1500"
         >
           Contact
         </h1>
@@ -44,7 +50,11 @@ const ContactForm = () => {
             onSubmit={sendMessage}
             className="col-lg-6 col-sm-12 contact-div"
           >
-            <div className="auth-card con-card">
+            <div
+              className="auth-card con-card"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
               {/* <h2 className="auth-head">Contact</h2> */}
               <div>
                 <label>
@@ -84,7 +94,11 @@ const ContactForm = () => {
             </div>
           </form>
 
-          <div className="col-lg-6 col-sm-12 ">
+          <div
+            className="col-lg-6 col-sm-12 "
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          >
             <Card className="map-card contact-map">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3928.21588468122!2d77.63297667503227!3d10.081389390028228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTDCsDA0JzUzLjAiTiA3N8KwMzgnMDguMCJF!5e0!3m2!1sen!2sin!4v1729403669274!5m2!1sen!2sin"
