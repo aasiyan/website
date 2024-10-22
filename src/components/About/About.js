@@ -49,11 +49,11 @@ const About = () => {
               >
                 <p className="hero-para">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Vivek P</b> is the visionary
-                  founder of <b> Aasiyan book of records</b>, bringing over 15
-                  years of experience in education, NGO consulting, and skills
-                  development. With a strong academic background that includes
-                  an M.A. in Bharatham from Annamalai University and an M.A. in
-                  Tamil from Madurai Kamarajar University, he is deeply
+                  founder of <b> Aasiyan book of world records</b>, bringing
+                  over 18 years of experience in education, NGO consulting and
+                  skills development. With a strong academic background that
+                  includes an M.A. in Bharatham from Annamalai University and an
+                  M.A. in Tamil from Madurai Kamarajar University, he is deeply
                   committed to empowering individuals through knowledge and
                   practical skills. His additional qualifications span diverse
                   fields such as skincare and haircare, soft skills, fine arts,
