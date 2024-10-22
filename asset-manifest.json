@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.c04fcee9.css",
-    "main.js": "/website/static/js/main.657ec269.js",
+    "main.css": "/website/static/css/main.00b5673b.css",
+    "main.js": "/website/static/js/main.80dd159f.js",
     "static/js/213.3601c94a.chunk.js": "/website/static/js/213.3601c94a.chunk.js",
     "static/js/732.bf8c8618.chunk.js": "/website/static/js/732.bf8c8618.chunk.js",
     "static/js/453.53d26257.chunk.js": "/website/static/js/453.53d26257.chunk.js",
-    "static/media/banner.png": "/website/static/media/banner.7564f979decb6fd0c265.png",
+    "static/media/banner.png": "/website/static/media/banner.4cf35c53a293db29a78b.png",
+    "static/media/banner_1.png": "/website/static/media/banner_1.7a2d80a2332e490941c2.png",
     "static/media/certificate.png": "/website/static/media/certificate.628247ccce5c193ba250.png",
     "static/media/logo.png": "/website/static/media/logo.0c1679329e4011b11128.png",
     "static/media/news1.jpeg": "/website/static/media/news1.37d27690b48070473707.jpeg",
@@ -26,14 +27,14 @@
     "static/media/jd.jpg": "/website/static/media/jd.c95868891bdd009fa2c6.jpg",
     "static/media/toggler-image.png": "/website/static/media/toggler-image.2064cb88304aff3d0761.png",
     "index.html": "/website/index.html",
-    "main.c04fcee9.css.map": "/website/static/css/main.c04fcee9.css.map",
-    "main.657ec269.js.map": "/website/static/js/main.657ec269.js.map",
+    "main.00b5673b.css.map": "/website/static/css/main.00b5673b.css.map",
+    "main.80dd159f.js.map": "/website/static/js/main.80dd159f.js.map",
     "213.3601c94a.chunk.js.map": "/website/static/js/213.3601c94a.chunk.js.map",
     "732.bf8c8618.chunk.js.map": "/website/static/js/732.bf8c8618.chunk.js.map",
     "453.53d26257.chunk.js.map": "/website/static/js/453.53d26257.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c04fcee9.css",
-    "static/js/main.657ec269.js"
+    "static/css/main.00b5673b.css",
+    "static/js/main.80dd159f.js"
   ]
 }
