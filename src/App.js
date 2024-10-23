@@ -1,20 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import About from "./components/About/About";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import Navbar from "./components/Navbar/Navbar";
+// import About from "./components/About/About";
 // import Certificate from "./components/Certificate/Certificate";
 // import Videos from "./components/Videos/Videos";
 // import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
-import Videos from "./pages/VideoPage";
-import CertificateGenerator from "./components/CertificateGenerator/CertificateGenerator";
-import Authentication from "./components/Authentication/Authentication";
+// import Videos from "./pages/VideoPage";
+// import CertificateGenerator from "./components/CertificateGenerator/CertificateGenerator";
+// import Authentication from "./components/Authentication/Authentication";
 // import UnderConstruction from "./components/under_construction/UnderConstruction";
 import LoadingSpinner from "./components/Loading/Loading";
-import Certificate from "./pages/Certificate";
+// import Certificate from "./pages/Certificate";
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "aos/dist/aos.js";
@@ -38,7 +38,7 @@ function App() {
       <div className="App">
         {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
       </div>
-      <Router>
+      {/* <Router>
         <div>
           <Navbar />
           <Routes>
@@ -55,7 +55,8 @@ function App() {
           </Routes>
           <Footer />
         </div>
-      </Router>
+      </Router> */}
+      <Home />
     </>
   );
 }
