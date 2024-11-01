@@ -1,10 +1,10 @@
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Navbar from "./components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 // import About from "./components/About/About";
 // import Certificate from "./components/Certificate/Certificate";
 // import Videos from "./components/Videos/Videos";
 // import Contact from "./components/Contact/Contact";
-// import Footer from "./components/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 // import Videos from "./pages/VideoPage";
 // import CertificateGenerator from "./components/CertificateGenerator/CertificateGenerator";
@@ -38,12 +38,12 @@ function App() {
       <div className="App">
         {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
       </div>
-      {/* <Router>
+      <Router>
         <div>
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            {/* <Route path="/about" element={<About />} />
             <Route path="/videos" element={<Videos />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/authentication" element={<Authentication />} />
@@ -51,12 +51,12 @@ function App() {
               path="/certificateGenerator"
               element={<CertificateGenerator />}
             />
-            <Route path="/certificate" element={<Certificate />} />
+            <Route path="/certificate" element={<Certificate />} /> */}
           </Routes>
           <Footer />
         </div>
-      </Router> */}
-      <Home />
+      </Router>
+      {/* <Home /> */}
     </>
   );
 }
