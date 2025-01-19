@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactForm.css";
+import "../Authentication/Authentication.css";
 import { Card } from "react-bootstrap";
 
 const ContactForm = () => {

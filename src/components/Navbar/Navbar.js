@@ -131,6 +131,17 @@ const Navbar = () => {
                   <a
                     className="nav-link nav-text"
                     style={{ color: "black" }}
+                    href="https://aasiyan.github.io/records/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Record's
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link nav-text"
+                    style={{ color: "black" }}
                     href="#news"
                   >
                     News

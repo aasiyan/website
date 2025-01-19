@@ -14,6 +14,7 @@ import news3 from "./news3.jpeg";
 import news4 from "./news4.jpeg";
 import news5 from "./news5.jpeg";
 import news6 from "./news6.jpeg";
+import news7 from "./news7.PNG";
 
 export const assets = {
   logo,
@@ -136,5 +137,10 @@ export const news_list = [
     id: 6,
     news_img: news6,
     desc: "A world record was set in Thirukkural recitation, where 283 students from Bodi Soundeeswari Middle School successfully recited all 1,330 verses of the Thirukkural in just 107 minutes. This remarkable achievement established a new world record. The article highlights the names of the organizers and participants, celebrating the students' impressive accomplishment.",
+  },
+  {
+    id: 7,
+    news_img: news7,  
+    desc: "A 10-year-old girl from Madurai has achieved a world record by holding the 'Urdhva Padmasana' (elevated lotus pose) yoga posture for 30 minutes continuously. The feat was recognized by the Aasiyan Book of Records and India Book of Records. She was trained by yoga instructor Karthik and encouraged by her parents and school",
   },
 ];

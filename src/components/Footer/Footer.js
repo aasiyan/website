@@ -75,7 +75,7 @@ const Footer = () => {
       </container>
       <p className="footer-rights">
         &copy; <span>{currentYear}</span> Aasiyan book of records. All rights
-        reserved.Design and developed by Dinesh Ram
+        reserved.
       </p>
     </footer>
   );

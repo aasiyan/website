@@ -8,8 +8,8 @@ function Authentication() {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-  const defaultUsername = "admin@aasiyan";
-  const defaultPassword = "adminaasiyan@123";
+  const defaultUsername = "";
+  const defaultPassword = "";
 
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(null);
