@@ -38,25 +38,9 @@ function App() {
       <div className="App">
         {loading ? <LoadingSpinner loading={loading} /> : <div>{data}</div>}
       </div>
-      <Router>
-        <div>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            {/* <Route path="/about" element={<About />} />
-            <Route path="/videos" element={<Videos />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/authentication" element={<Authentication />} />
-            <Route
-              path="/certificateGenerator"
-              element={<CertificateGenerator />}
-            />
-            <Route path="/certificate" element={<Certificate />} /> */}
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
-      {/* <Home /> */}
+      <Navbar />
+      <Home />
+      <Footer />
     </>
   );
 }
